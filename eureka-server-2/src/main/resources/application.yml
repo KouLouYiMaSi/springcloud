@@ -1,12 +1,12 @@
 server:
-  port: 20001
+  port: 20003
 eureka:
   instance:
-    hostname: server1
+    hostname: server3
   client:
     # 表示是否注册自身到eureka服务器
     register-with-eureka: false
     # 是否从eureka上获取注册信息
     fetch-registry: false
     service-url:
-      defaultZone: http://server2:20002/eureka/,http://server3:20003/eureka/
+      defaultZone: http://server1:20001/eureka/,http://server2:20003/eureka/
