@@ -1,5 +1,7 @@
 server:
   port: 20001
+  enable-self-preservation: false
+  peer-eureka-nodes-update-interval-ms: 600
 eureka:
   instance:
     hostname: server1
@@ -9,4 +11,4 @@ eureka:
     # 是否从eureka上获取注册信息
     fetch-registry: false
     service-url:
-      defaultZone: http://server2:20002/eureka/,http://server3:20003/eureka/
+      defaultZone: http://server2:20002/eureka/

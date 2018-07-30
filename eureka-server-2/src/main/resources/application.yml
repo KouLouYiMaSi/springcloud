@@ -1,5 +1,7 @@
 server:
   port: 20003
+  enable-self-preservation: false
+  peer-eureka-nodes-update-interval-ms: 6000
 eureka:
   instance:
     hostname: server3

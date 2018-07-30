@@ -1,6 +1,6 @@
 server:
   port: 8770
-
+  enable-self-preservation: false
 spring:
   application:
     name: service-hi
@@ -8,4 +8,6 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:20001/eureka/,http://localhost:20002/eureka/
+
+
