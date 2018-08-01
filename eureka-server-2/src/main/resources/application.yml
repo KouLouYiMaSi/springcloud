@@ -7,8 +7,8 @@ eureka:
     hostname: server3
   client:
     # 表示是否注册自身到eureka服务器
-    register-with-eureka: false
+    register-with-eureka: true
     # 是否从eureka上获取注册信息
-    fetch-registry: false
+    fetch-registry: true
     service-url:
       defaultZone: http://server1:20001/eureka/,http://server2:20002/eureka/
