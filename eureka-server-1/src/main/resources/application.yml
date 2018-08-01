@@ -1,11 +1,9 @@
 
 server:
-  port: 20002
+  port: 20001
 eureka:
   instance:
-    hostname: server2
+    hostname: server1
   client:
-    register-with-eureka: true
-    fetch-registry: true
     service-url:
-      defaultZone: http://server1:20001/eureka/,http://server3:20003/eureka/
+      defaultZone: http://server2:20002/eureka/,http://server3:20003/eureka/

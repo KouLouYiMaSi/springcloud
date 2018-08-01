@@ -9,6 +9,8 @@
         <module name="eureka-server" />
         <module name="eureka-server (1)" />
         <module name="eureka-server-2" />
+        <module name="eureka-server-3" />
+        <module name="ribbon" />
         <module name="service-hi" />
         <module name="springcloud" />
       </profile>

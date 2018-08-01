@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.huo</groupId>
-    <artifactId>eureka-server-1</artifactId>
+    <artifactId>eureka-server-3</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>eureka-server-1</name>
+    <name>eureka-server-3</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>

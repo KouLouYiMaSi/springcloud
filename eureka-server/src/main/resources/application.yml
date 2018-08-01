@@ -4,9 +4,9 @@ eureka:
   instance:
     hostname: server1
   client:
-    # 表示是否注册自身到eureka服务器
-    register-with-eureka: true
-    # 是否从eureka上获取注册信息
-    fetch-registry: true
     service-url:
-      defaultZone: http://server2:20002/eureka/,http://server3:20003/eureka/
+      defaultZone: http://server1:20001/eureka/
+    fetch-registry: false
+    register-with-eureka: false
+  server:
+    enable-self-preservation: false
