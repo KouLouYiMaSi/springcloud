@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/service-hi/pom.xml" />
         <option value="$PROJECT_DIR$/ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server-3/pom.xml" />
+        <option value="$PROJECT_DIR$/feign/pom.xml" />
       </list>
     </option>
   </component>

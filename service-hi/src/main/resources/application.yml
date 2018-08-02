@@ -1,5 +1,5 @@
 server:
-  port: 8774
+  port: 8772
   enable-self-preservation: false
 spring:
   application:
