@@ -6,6 +6,6 @@ spring:
       server:
         git:
           uri: https://github.com/KouLouYiMaSi/springcloud
-          search-paths:
-          username:
-          password:
+          search-paths: config-repo
+          username: KouLouYiMaSi
+          password: huo1598100
