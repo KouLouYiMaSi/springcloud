@@ -2,12 +2,14 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server-1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server-2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server-3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon/src/main/resources/application.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/service-hi" charset="UTF-8" />
   </component>
 </project>
