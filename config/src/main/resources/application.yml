@@ -9,3 +9,5 @@ spring:
           search-paths: config-repo
           username: KouLouYiMaSi
           password: huo1598100
+server:
+  port: 7001
