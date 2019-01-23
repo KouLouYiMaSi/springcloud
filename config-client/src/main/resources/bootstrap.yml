@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: huo
+  cloud:
+    config:
+      profile: dev
+      label: config-test
+      uri: http://localhost:7001/
+server:
+  port: 7002

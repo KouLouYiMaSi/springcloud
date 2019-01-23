@@ -20,6 +20,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-server" target="1.8" />
       <module name="config-test" target="1.8" />
       <module name="springcloud" target="1.8" />
     </bytecodeTargetLevel>
