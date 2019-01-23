@@ -8,6 +8,6 @@ spring:
           uri: https://github.com/KouLouYiMaSi/springcloud
           search-paths: config-repo
           username: KouLouYiMaSi
-          password: huo1598100
+          password: xxxxx
 server:
   port: 7001
